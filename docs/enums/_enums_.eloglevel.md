@@ -25,7 +25,7 @@ Log levels enumerator
 
 **debug**:  = 2
 
-*Defined in [Enums.ts:6](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L6)*
+*Defined in [Enums.ts:6](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L6)*
 
 ___
 <a id="error"></a>
@@ -34,7 +34,7 @@ ___
 
 **error**:  = 5
 
-*Defined in [Enums.ts:9](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L9)*
+*Defined in [Enums.ts:9](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L9)*
 
 ___
 <a id="fatal"></a>
@@ -43,7 +43,7 @@ ___
 
 **fatal**:  = 6
 
-*Defined in [Enums.ts:10](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L10)*
+*Defined in [Enums.ts:10](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L10)*
 
 ___
 <a id="info"></a>
@@ -52,7 +52,7 @@ ___
 
 **info**:  = 3
 
-*Defined in [Enums.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L7)*
+*Defined in [Enums.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L7)*
 
 ___
 <a id="trace"></a>
@@ -61,7 +61,7 @@ ___
 
 **trace**:  = 1
 
-*Defined in [Enums.ts:5](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L5)*
+*Defined in [Enums.ts:5](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L5)*
 
 ___
 <a id="warning"></a>
@@ -70,7 +70,7 @@ ___
 
 **warning**:  = 4
 
-*Defined in [Enums.ts:8](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Enums.ts#L8)*
+*Defined in [Enums.ts:8](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Enums.ts#L8)*
 
 ___
 

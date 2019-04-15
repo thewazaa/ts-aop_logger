@@ -55,7 +55,7 @@ export class AopLogger<T extends AopLogWorker> {
    * @param  method       method to log
    * @return              retrieved value
    */
-  public _logMethod(methodName: string, _arguments: any, loggerParams: iLoggerOptions, method: () => {}): Promise<any> {
+  public _logMethod(methodName: string, _arguments: any, loggerParams: iLoggerOptions, method: () => {}): any {
     return this.aop._intereceptMethod(methodName, _arguments, method, loggerParams);
   }
 

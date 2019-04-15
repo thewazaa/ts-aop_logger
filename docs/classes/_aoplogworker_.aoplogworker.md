@@ -43,7 +43,7 @@
 
 *Overrides AopWorker.__constructor*
 
-*Defined in [AopLogWorker.ts:33](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L33)*
+*Defined in [AopLogWorker.ts:33](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L33)*
 
 It controls the code region defined through the AppLoger, to let you define what to log.
 
@@ -69,7 +69,7 @@ ___
 
 **● _arguments**: *`any`*
 
-*Defined in [AopLogWorker.ts:25](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L25)*
+*Defined in [AopLogWorker.ts:25](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L25)*
 
 method arguments
 
@@ -80,7 +80,7 @@ ___
 
 **● _endDate**: *`Date`*
 
-*Defined in [AopLogWorker.ts:17](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L17)*
+*Defined in [AopLogWorker.ts:17](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L17)*
 
 call end date
 
@@ -91,7 +91,7 @@ ___
 
 **● _exception**: *`undefined` \| `string`*
 
-*Defined in [AopLogWorker.ts:29](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L29)*
+*Defined in [AopLogWorker.ts:29](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L29)*
 
 retrieved exception
 
@@ -104,7 +104,7 @@ ___
 
 *Overrides AopWorker._extra*
 
-*Defined in [AopLogWorker.ts:9](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L9)*
+*Defined in [AopLogWorker.ts:9](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L9)*
 
 extra parameters provided to manage logs
 
@@ -115,7 +115,7 @@ ___
 
 **● _methodName**: *`string`*
 
-*Defined in [AopLogWorker.ts:21](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L21)*
+*Defined in [AopLogWorker.ts:21](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L21)*
 
 method name
 
@@ -126,7 +126,7 @@ ___
 
 **● _ret**: *`any`*
 
-*Defined in [AopLogWorker.ts:33](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L33)*
+*Defined in [AopLogWorker.ts:33](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L33)*
 
 retrieved back parameters
 
@@ -137,7 +137,7 @@ ___
 
 **● _startDate**: *`Date`*
 
-*Defined in [AopLogWorker.ts:13](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L13)*
+*Defined in [AopLogWorker.ts:13](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L13)*
 
 call start date
 
@@ -153,7 +153,7 @@ ___
 
 *Overrides AopWorker.end*
 
-*Defined in [AopLogWorker.ts:86](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L86)*
+*Defined in [AopLogWorker.ts:86](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L86)*
 
 It runs at the end the method. Even when an exception is being performed
 
@@ -176,7 +176,7 @@ ___
 
 *Overrides AopWorker.exception*
 
-*Defined in [AopLogWorker.ts:74](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L74)*
+*Defined in [AopLogWorker.ts:74](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L74)*
 
 It runs in case of exception.
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **logger**(logLevel: *[eLogLevel](../enums/_enums_.eloglevel.md)*, message?: *`undefined` \| `string`*): `void`
 
-*Defined in [AopLogWorker.ts:100](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L100)*
+*Defined in [AopLogWorker.ts:100](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L100)*
 
 Logger method, to define your log operations
 
@@ -219,7 +219,7 @@ ___
 
 *Overrides AopWorker.start*
 
-*Defined in [AopLogWorker.ts:62](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogWorker.ts#L62)*
+*Defined in [AopLogWorker.ts:62](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogWorker.ts#L62)*
 
 It runs at the start of the region
 
