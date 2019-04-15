@@ -1,4 +1,4 @@
-import { AopLogWorker, eLogLevel } from '../index';
+import { AopLogWorker, eLogLevel } from '../src/index';
 
 var _log: {
   logLevel: eLogLevel,
@@ -11,7 +11,7 @@ var _log: {
   ret?: any
 };
 
-export abstract class testWorker extends AopLogWorker {
+export class testWorker extends AopLogWorker {
   public logger(logLevel: eLogLevel, message?: string): void {
     _log = {
       logLevel: logLevel,

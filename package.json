@@ -2,10 +2,15 @@
   "name": "aop_logger",
   "version": "1.0.0",
   "description": "auxiliar logger helper that works with  aop pattern to perform logs with the logger package of your choose",
-  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha -r ts-node/register test/*.ts",
-    "docs": "typedoc --theme markdown index.ts -out docs"
+    "docs": "typedoc --theme markdown src/index.ts -out docs",
+    "docsHtml": "typedoc src/index.ts -out docsHtml",
+    "build": "tsc --pretty"
   },
   "repository": {
     "type": "git",
@@ -23,7 +28,7 @@
   },
   "homepage": "https://github.com/thewazaa/ts.aop_logger#readme",
   "dependencies": {
-    "aop_pattern": "^1.1.5",
+    "aop_pattern": "^1.1.8",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.3"
   },
