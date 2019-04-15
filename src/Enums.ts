@@ -1,3 +1,6 @@
+/**
+ * Log levels enumerator
+ */
 export enum eLogLevel {
   trace = 1,
   debug = 2,
