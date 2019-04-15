@@ -27,7 +27,7 @@ Interface for logging management. It manages the log levels and their respective
 
 **● koLog**: *[eLogLevel](../enums/_enums_.eloglevel.md)*
 
-*Defined in [Interfaces.ts:15](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Interfaces.ts#L15)*
+*Defined in [Interfaces.ts:15](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Interfaces.ts#L15)*
 
 ko log level
 
@@ -38,7 +38,7 @@ ___
 
 **● koMessage**: *`undefined` \| `string`*
 
-*Defined in [Interfaces.ts:23](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Interfaces.ts#L23)*
+*Defined in [Interfaces.ts:23](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Interfaces.ts#L23)*
 
 ko log message
 
@@ -49,7 +49,7 @@ ___
 
 **● okLog**: *[eLogLevel](../enums/_enums_.eloglevel.md)*
 
-*Defined in [Interfaces.ts:11](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Interfaces.ts#L11)*
+*Defined in [Interfaces.ts:11](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Interfaces.ts#L11)*
 
 ok log level
 
@@ -60,7 +60,7 @@ ___
 
 **● okMessage**: *`undefined` \| `string`*
 
-*Defined in [Interfaces.ts:19](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/Interfaces.ts#L19)*
+*Defined in [Interfaces.ts:19](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/Interfaces.ts#L19)*
 
 ok log message
 

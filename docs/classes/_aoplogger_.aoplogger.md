@@ -33,7 +33,7 @@
 
 ⊕ **new AopLogger**(type: *`object`*, className?: *`undefined` \| `string`*): [AopLogger](_aoplogger_.aoplogger.md)
 
-*Defined in [AopLogger.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogger.ts#L7)*
+*Defined in [AopLogger.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogger.ts#L7)*
 
 Class to perform AOP logs related to class method, functions or promises.
 
@@ -85,7 +85,7 @@ ___
 
 **● aop**: *`Aop`<`T`>*
 
-*Defined in [AopLogger.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogger.ts#L7)*
+*Defined in [AopLogger.ts:7](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogger.ts#L7)*
 
 ___
 
@@ -95,9 +95,9 @@ ___
 
 ###  _logMethod
 
-▸ **_logMethod**(methodName: *`string`*, _arguments: *`any`*, loggerParams: *[iLoggerOptions](../interfaces/_interfaces_.iloggeroptions.md)*, method: *`function`*): `Promise`<`any`>
+▸ **_logMethod**(methodName: *`string`*, _arguments: *`any`*, loggerParams: *[iLoggerOptions](../interfaces/_interfaces_.iloggeroptions.md)*, method: *`function`*): `any`
 
-*Defined in [AopLogger.ts:58](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogger.ts#L58)*
+*Defined in [AopLogger.ts:58](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogger.ts#L58)*
 
 Auxiliar method to perform AOP logging of methods
 
@@ -110,7 +110,7 @@ Auxiliar method to perform AOP logging of methods
 | loggerParams | [iLoggerOptions](../interfaces/_interfaces_.iloggeroptions.md) |  logging options |
 | method | `function` |  method to log |
 
-**Returns:** `Promise`<`any`>
+**Returns:** `any`
 retrieved value
 
 ___
@@ -120,7 +120,7 @@ ___
 
 ▸ **_logPromise**(methodName: *`string`*, _arguments: *`any`*, loggerParams: *[iLoggerOptions](../interfaces/_interfaces_.iloggeroptions.md)*, promise: *`Promise`<`any`>*): `Promise`<`any`>
 
-*Defined in [AopLogger.ts:70](https://github.com/thewazaa/ts-aop_logger/blob/2b371d2/src/AopLogger.ts#L70)*
+*Defined in [AopLogger.ts:70](https://github.com/thewazaa/ts-aop_logger/blob/4ec8220/src/AopLogger.ts#L70)*
 
 Auxiliar method to perform AOP logging of promises
 

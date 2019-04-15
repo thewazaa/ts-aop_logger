@@ -1,6 +1,6 @@
 {
   "name": "aop_logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auxiliar logger helper that works with  aop pattern to perform logs with the logger package of your choose",
   "files": [
     "lib"

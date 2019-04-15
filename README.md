@@ -3,6 +3,7 @@ Index
 
 ### Version changes
 
+*   1.0.1 \_logMethod retrieves any, no promise
 *   1.0.0 Initial release
 
 ### Example
