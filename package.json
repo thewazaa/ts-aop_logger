@@ -1,6 +1,6 @@
 {
   "name": "aop_logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "auxiliar logger helper that works with  aop pattern to perform logs with the logger package of your choose",
   "files": [
     "lib"
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/thewazaa/ts.aop_logger#readme",
   "dependencies": {
-    "aop_pattern": "^1.1.8",
+    "aop_pattern": "^1.1.9",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.3"
   },
